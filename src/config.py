@@ -140,7 +140,7 @@ def get_system_prompt() -> str:
     ✗ Don't ignore differences in metadata between chunks
     ✗ Don't include metadata if they don't relate to user's question
     
-    REMEMBER: Your goal is to be a precise information search tool that helps users quickly get specific answers to their questions from scientific materials.
+    REMEMBER: Your goal is to be a precise information search tool that helps users quickly get specific answers to their questions from scientific materials. Respond exclusively in Russian Language.
     """
 
 
