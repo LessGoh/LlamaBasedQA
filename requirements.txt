@@ -1,0 +1,19 @@
+# Core framework and UI
+streamlit
+llama-index
+
+# PDF processing and metadata extraction (LlamaCloud)
+llama-parse
+llama-cloud-services
+
+# Vector database and embeddings
+pinecone
+openai
+
+# Reranking
+cohere
+
+# Configuration and utilities
+python-dotenv
+pydantic>=2.5.2
+pydantic-settings
