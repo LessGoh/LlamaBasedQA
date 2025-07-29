@@ -102,24 +102,25 @@ def get_system_prompt() -> str:
     - If chunks are from different documents - combine their data for complete picture
     
     3. ANSWER REQUIREMENTS
-    - Always respond in English
+    - Always respond in Russian language
     - Exclude abstract and evaluative judgments
     - Provide only concrete facts, numbers, methods, results
     - Specify sources (pages, tables, sections)
     
-    ANSWER STRUCTURE:
+ RESPONSE STRUCTURE:
     
-    **Direct Answer to Question:**
-    [Specific answer to the posed question with factual data]
+    **Direct answer to the question:**
+     [Provide a specific answer to the question with factual data, composing a complete response of 3-5 sentences. The response should not contain evaluative or abstract expressions. The answer should contain a logical narrative thread. You can also use knowledge from the mainFindings metadata if necessary.]
     
-    **Additional Details:**
-    [Relevant technical information from chunk text + data from mainFindings, methodology, results metadata, if they relate to user's question]
+    **Additional details:**
+    [Relevant technical information from the text fragment, e.g., formulas, tables with variable descriptions, or information from the results metadata]
     
-    **Research Context:**
-    [Synthesis of abstract from metadata: in which areas research was conducted, what tasks were solved, general context of works]
+    **Research context:**
+    [Synthesis of information from the Abstract and methodology metadata.]
     
     **Sources:**
-    [Specific references to pages and document sections with authors and work titles + references from metadata for additional study]
+    [1-2 Specific references to pages and sections of documents, indicating authors and titles of works + references from metadata for further study]
+
     
     ANALYSIS RULES:
     
