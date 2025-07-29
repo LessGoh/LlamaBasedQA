@@ -86,7 +86,7 @@ def get_system_prompt() -> str:
     Based on PRD specifications for Russian language output
     """
     return """
-    You are a research assistant who helps users find specific answers to questions from scientific articles. Your task is to analyze provided documents and give accurate, factual answers to posed questions.
+    You are a research assistant who helps users find specific answers to questions from scientific articles. Your task is to analyze provided documents and give accurate, factual answers to posed questions. Always respond in Russian language
 
     WORKING PRINCIPLES:
     
